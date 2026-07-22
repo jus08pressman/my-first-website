@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+<title>Justine's Website</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    color:white;
+    text-align:center;
+    animation:fadeIn 2s;
+}
+
+.container{
+    margin-top:120px;
+}
+
+h1{
+    font-size:50px;
+    animation:bounce 2s infinite;
+}
+
+p{
+    font-size:22px;
+}
+
+button{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#0077ff;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+    background:#ffe600;
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@keyframes bounce{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+}
+</style>
+
 </head>
 
 <body>
 
-    <h1>Hello, I'm Justine!</h1>
+<div class="container">
+<h1>👋 Hello, I'm Justine!</h1>
 
-    <p>Welcome to my first website.</p>
+<p>Welcome to my colorful first website.</p>
 
-    <button>Click Me!</button>
+<button onclick="alert('Thanks for visiting my website! 😊')">
+Click Me
+</button>
+
+</div>
 
 </body>
 </html>
