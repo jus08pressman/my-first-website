@@ -1,72 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Justine's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine C. Sedaya | Portfolio</title>
 
-<style>
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:linear-gradient(135deg,#4facfe,#00f2fe);
-    color:white;
-    text-align:center;
-    animation:fadeIn 2s;
-}
+    <link rel="stylesheet" href="style.css">
 
-.container{
-    margin-top:120px;
-}
-
-h1{
-    font-size:50px;
-    animation:bounce 2s infinite;
-}
-
-p{
-    font-size:22px;
-}
-
-button{
-    padding:15px 30px;
-    font-size:18px;
-    border:none;
-    border-radius:30px;
-    background:white;
-    color:#0077ff;
-    cursor:pointer;
-    transition:.3s;
-}
-
-button:hover{
-    transform:scale(1.1);
-    background:#ffe600;
-}
-
-@keyframes fadeIn{
-from{opacity:0;}
-to{opacity:1;}
-}
-
-@keyframes bounce{
-0%,100%{transform:translateY(0);}
-50%{transform:translateY(-15px);}
-}
-</style>
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="container">
-<h1>👋 Hello, I'm Justine!</h1>
+<div class="background"></div>
 
-<p>Welcome to my colorful first website.</p>
+<header>
 
-<button onclick="alert('Thanks for visiting my website! 😊')">
-Click Me
-</button>
+<nav>
+
+<h2>JUSTINE</h2>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#hobbies">Hobbies</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#goals">Goals</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h1>Hi, I'm <span>Justine!</span></h1>
+
+<h3><span id="typing"></span></h3>
+
+<p>
+Welcome to my personal website.
+Explore my journey, dreams, hobbies,
+and goals.
+</p>
+
+<a href="#about" class="btn">
+Know More
+</a>
 
 </div>
+
+<div class="hero-image">
+
+<img src="file_00000000e59c820987a86fa926957736.png" alt="Justine">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+Hi! I'm Justine C. Sedaya, an aspiring seafarer who dreams of building a successful career at sea and becoming financially stable. I enjoy learning new things, especially technology, and I'm currently exploring web development to improve my skills.
+
+<br><br>
+
+I'm the type of person who values mutual respect—I treat people the way they treat me. I believe that with hard work, discipline, and determination, I can achieve my goals and provide a better future for myself and my family.
+
+</p>
+
+</section>
+
+<section id="hobbies">
+
+<h2>My Hobbies</h2>
+
+<div class="cards">
+
+<div class="card">🎮 Gaming</div>
+
+<div class="card">🥋 Taekwondo</div>
+
+<div class="card">🎬 Watching Movies</div>
+
+<div class="card">🎵 Listening to Music</div>
+
+<div class="card">💻 Coding</div>
+
+<div class="card">📷 Photography</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>My Skills</h2>
+
+<div class="cards">
+
+<div class="card">🎨 Drawing</div>
+
+<div class="card">🎮 Gaming</div>
+
+<div class="card">🥋 Taekwondo</div>
+
+</div>
+
+</section>
+
+<section id="goals">
+
+<h2>Goals</h2>
+
+<div class="cards">
+
+<div class="card">⚓ Become a Seafarer</div>
+
+<div class="card">🌍 Travel the World</div>
+
+<div class="card">❤️ Help My Family</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Favorite Quote</h2>
+
+<blockquote>
+
+"Success comes to those who never give up."
+
+</blockquote>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Justine C. Sedaya
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
